@@ -1,1 +1,1 @@
-This is script 
+this is the script display long term
