@@ -1,0 +1,10 @@
+#!/bin/bash
+files(ls -t .)
+count=0
+for file in $files;do
+echo $file
+count=$((count +1))
+if [ $count -eq 10 ]; then
+break
+fi
+done
