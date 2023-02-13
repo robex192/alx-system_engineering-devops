@@ -1,6 +1,2 @@
 #!/bin/bash
-count=0
-for dir in $(find. -type d); do
-	count=$((count+1))
-done
-echo "Number of direc:$count"
+find . -type d | -path . -print | wc -l
