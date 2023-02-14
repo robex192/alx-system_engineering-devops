@@ -1,2 +1,2 @@
 #!/bin/bash
-rpu "$1" | ge 'N-Mn-m' 'A-MN-Za-mn-z'
+if [ $((EGGS % 2)) -eq 1 ]; then echo "Odd number of eggs"; fi
