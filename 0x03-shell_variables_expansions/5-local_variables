@@ -1,2 +1,2 @@
 #!/bin/bash
-(set -o posix; set | grep "^[[:alpha:]_][[:alnum:]_]*=.*"; env; declare -F)
+sort
