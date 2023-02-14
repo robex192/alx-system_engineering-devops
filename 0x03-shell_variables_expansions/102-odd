@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ $((EGGS % 2)) -eq 1 ]; then echo "Odd number of eggs"; fi
